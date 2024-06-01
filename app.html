@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>your blog</h1>
+    <h2 id="cou">totalblog:</h2>
+
+    <form id="formid" class="dataform" onsubmit="gotoaction(event)">
+        <input type="text" placeholder="enter title" id="title" name="title"><br>
+        <input type="text" placeholder="enter url" id="imgurl" name="imgUrl"><br>
+        <input type="text" placeholder="enter discription"  id='discription' name="discription"><br><br>
+        <button type="submit">sub</button>
+    </form>
+
+    <ul id="uldata"></ul>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="aap.js"></script>
+</html>

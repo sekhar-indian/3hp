@@ -1,0 +1,9 @@
+h1, h2{
+    text-align: center;
+}
+
+.dataform{
+    /* border-bottom-color: black; */
+    padding-bottom: 4%;
+    border-bottom: 2px solid rgb(176, 170, 170);
+}
