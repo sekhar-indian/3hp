@@ -46,7 +46,8 @@ async function gotoaction(event){
     .delete(`https://crudcrud.com/api/1978c92666464b48b57f17af6a088020/api/${id}`)
     .then((res)=>{
         console.log(el.querySelector('h4').textContent)
-      
+        count--;
+        document.getElementById('cou').textContent=`totalblog:${count}`
         document.getElementById('title').value=el.querySelector('h4').textContent
         document.getElementById('imgurl').value=el.querySelector('img').src
         document.getElementById('discription').value=el.querySelector('p').textContent
